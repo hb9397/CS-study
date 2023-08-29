@@ -14,7 +14,7 @@
 
 # 추상 팩토리 패턴 구조
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ffc55328-b4f9-472d-b30e-1bfbfbeb053d/Untitled.png)
+![image](https://github.com/kkkwp/CS-study/assets/97209766/34bccdfb-9af3-461a-a301-42ebe931b054)
 
 - **AbstactFactory**
     - 최상위 팩토리 클래스로 각각의 생산 부서의 제품을 생성하는 공통된 형식의 메서드를 추상화해서 가지고 있다.
@@ -43,7 +43,7 @@
 
 - 각 업체에 제공하고 있는 솔루션
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bfac3326-e50a-43fa-bcc5-a64677fe7b48/Untitled.png)
+    ![image](https://github.com/kkkwp/CS-study/assets/97209766/a073a7de-d9be-40d3-bd23-7bc9be4b934f)
     
 - ServiceProduct 라는 추상화 객체 하위에 FrontEnd, BackEnd, CIAndCD 라는 AbstractProduct 에 해당되는 제품 대분류 서비스 추상화 객체가 있으며, 그 하위에 NaverFE, KakaoFE, SamsungFE/NaverBE, KakaoBE, SamsungBE/NaverCICD, KakaoCICD, SamsungCICD 솔루션 구현체가 존재한다.
 
@@ -207,7 +207,7 @@
 - 생산부에 해당되는 ConcreteFactory 의 분류와 각 솔루션 생산을 담당하는 관계
     - 제품 생산 파트의 분류를 CICD 파트, BackEnd 파트, FrontEnd 파트로 나누어 담당하고 있다.
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/759f3dd8-dc86-4c02-aa74-6e7b69cde126/Untitled.png)
+    ![image](https://github.com/kkkwp/CS-study/assets/97209766/69365504-7b66-4c1e-9be2-c3de7b63be7f)
     
 
 ### FactoryMethod 패턴의 이란?
@@ -338,7 +338,7 @@
 - 생산부에 해당되는 ConcreteFactory 의 분류와 각 솔루션 생산을 담당하는 관계
     - 제품 생산 파트의 분류를 네이버 파트, 삼성 파트, 카카오 파트로 나누어 담당하고 있다.
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/014e9a50-1953-4976-87fe-d33e5bec5dc0/Untitled.png)
+    ![image](https://github.com/kkkwp/CS-study/assets/97209766/88b214f3-aea3-40df-b433-df6811e24d71)
     
 
 ### AbstractMethodFactoryPattern 기반의 개발 부서 코드
@@ -486,14 +486,14 @@
 
 - (출처: [인파님 블로그](https://inpa.tistory.com/entry/GOF-%F0%9F%92%A0-%EC%B6%94%EC%83%81-%ED%8C%A9%ED%86%A0%EB%A6%ACAbstract-Factory-%ED%8C%A8%ED%84%B4-%EC%A0%9C%EB%8C%80%EB%A1%9C-%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90))
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7a458aab-20b9-4229-85f6-0f5b37685ed9/Untitled.png)
+    ![image](https://github.com/kkkwp/CS-study/assets/97209766/45898f85-f0b3-4812-b8c2-439ca23139cb)
     
 
 ## 두 패턴 간 오해하지 말아야 할 점
 
 - (출처: [인파님 블로그](https://inpa.tistory.com/entry/GOF-%F0%9F%92%A0-%EC%B6%94%EC%83%81-%ED%8C%A9%ED%86%A0%EB%A6%ACAbstract-Factory-%ED%8C%A8%ED%84%B4-%EC%A0%9C%EB%8C%80%EB%A1%9C-%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90))
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/59af767c-4d4c-41c5-b7ee-2cea95083523/Untitled.png)
+    ![image](https://github.com/kkkwp/CS-study/assets/97209766/3528a6ff-41b3-4ad2-a193-aefba1cd98c0)
     
 
 ---
